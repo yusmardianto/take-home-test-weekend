@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ImageNavbar from '../img/navbar.png';
-import './navbar.css';
+import './component.css';
 
 function NavbarHome() {
   return (

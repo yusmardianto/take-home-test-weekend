@@ -1,0 +1,124 @@
+.headers {
+	background-color: #EEBECE;
+}
+
+.imgHeader {
+	width: 100%;
+}
+
+@media (min-width: 991px) {
+
+	/* navbar */
+	.headertext1 {
+		color: black;
+		position: absolute;
+		left: 13%;
+		margin-top: -10px;
+	}
+
+	.headertext2 {
+		color: black;
+		position: absolute;
+		left: 13%;
+		top: 50%;
+		font-weight: bolder;
+	}
+
+	/* headers */
+	.imgPerson {
+		position: absolute;
+		bottom: 14%;
+		left: 45%;
+		width: 10%
+	}
+
+	.buttonHeader {
+		position: absolute;
+		bottom: 19%;
+		left: 43%;
+		width: 15%;
+		height: 60px;
+		border-radius: 50px;
+	}
+
+	.titleHeader {
+		position: absolute;
+		left: 35%;
+		top: 20%;
+		font-weight: 900;
+		color: #fff;
+	}
+
+	.headerText {
+		font-style: italic;
+		position: absolute;
+		left: 41%;
+		top: 29%;
+		font-weight: 1000;
+		color: #fff;
+	}
+
+	/* definition */
+	.definition {
+		background-color: #EEBECE;
+	}
+
+	.BgimgPersonRight {
+		position: absolute;
+		right: 0%;
+		width: 5%
+	}
+
+	.imgPersonRight {
+		position: absolute;
+		margin-top: 45px;
+		right: 0%;
+		width: 10%
+	}
+
+	.definitionText {
+		font-weight: 700;
+		margin-top: 150px;
+		right: 40%;
+		text-align: right;
+	}
+
+	.definitionTextSign {
+		color: #fff;
+		font-weight: 700;
+		right: 40%;
+		text-align: right;
+	}
+
+	/* testimonials */
+	.imgOval {
+		width: 8%;
+		margin-left: 300px;
+	}
+
+	.titleTestimoni {
+		margin-top: -20px;
+		color: #fff;
+		font-weight: bolder;
+	}
+}
+
+@media (max-width: 991px) {
+	.imgPerson {
+		position: absolute;
+		margin-top: 80px;
+		left: 45%;
+		width: 15%;
+		height: 110px;
+	}
+
+	.buttonHeader {
+		position: absolute;
+		margin-top: 150px;
+		left: 39%;
+		width: 100px;
+		height: 30px;
+		border-radius: 50px;
+		background-color: #fff;
+	}
+}

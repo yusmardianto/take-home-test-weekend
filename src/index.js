@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import reportWebVitals from './reportWebVitals';
 import './index.css';
 import Navbar from './component/navbar';
 import Header from './component/header';
-import reportWebVitals from './reportWebVitals';
+import Definition from './component/definition';
+import Testimonials from './component/testimonials';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
     <Header />
+    <Definition />
+    <Testimonials />
   </React.StrictMode>
 );
 

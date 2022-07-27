@@ -6,6 +6,9 @@ import Navbar from './component/navbar';
 import Header from './component/header';
 import Definition from './component/definition';
 import Testimonials from './component/testimonials';
+import POV from './component/pov';
+import Resource from './component/resources';
+import Help from './component/help';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +17,9 @@ root.render(
     <Header />
     <Definition />
     <Testimonials />
+    <POV />
+    <Resource />
+    <Help />
   </React.StrictMode>
 );
 

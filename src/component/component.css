@@ -101,6 +101,24 @@
 		color: #fff;
 		font-weight: bolder;
 	}
+
+	/* pov */
+	.pov {
+		margin-top: -150px;
+		background-color: black;
+		height: 100%;
+	}
+
+	.povTitle {
+		color: white;
+		margin-top: 250px;
+		font-weight: bolder;
+	}
+
+	.povDesc {
+		font-size: 18px;
+		color: white;
+	}
 }
 
 @media (max-width: 991px) {

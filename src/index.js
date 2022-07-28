@@ -9,6 +9,7 @@ import Testimonials from './component/testimonials';
 import POV from './component/pov';
 import Resource from './component/resources';
 import Help from './component/help';
+import Set from './component/set';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,10 @@ root.render(
     <POV />
     <Resource />
     <Help />
+    <Set />
+    <div class="footer">
+      <p>Footer</p>
+    </div>
   </React.StrictMode>
 );
 

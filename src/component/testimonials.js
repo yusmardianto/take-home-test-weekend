@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 import './component.css';
 import axios from 'axios';
 
-export default class Tes extends React.Component {
+export default class Testimonial extends React.Component {
 
     state = {
         testimonis: []

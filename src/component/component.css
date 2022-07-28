@@ -119,6 +119,61 @@
 		font-size: 18px;
 		color: white;
 	}
+
+	/* help */
+	.help {
+		background-color: black;
+	}
+
+	.titlehelp {
+		margin-top: -20px;
+		color: #fff;
+		font-weight: bolder;
+	}
+
+	.helpImg {
+		width: 33%;
+		padding: 10px;
+		background-color: black;
+	}
+
+	.helpText {
+		margin-top: 130px;
+		margin-left: 20px;
+		font-weight: bolder;
+	}
+
+	.BgimgRight {
+		position: absolute;
+		right: 3%;
+		width: 10%
+	}
+
+	/* set */
+	.setTitle {
+		color: white;
+		margin-top: 150px;
+		font-weight: bolder;
+	}
+
+	.setDesc {
+		font-size: 18px;
+		color: white;
+	}
+
+	.BgimgPersonleft {
+		position: absolute;
+		margin-top: 128px;
+		left: 0%;
+		width: 20%
+	}
+
+	.imgPersonleft {
+		position: absolute;
+		margin-top: 80px;
+		left: 0%;
+		width: 10%
+	}
 }
 
 @media (max-width: 991px) {

@@ -22,9 +22,6 @@ root.render(
     <Resource />
     <Help />
     <Set />
-    <div class="footer">
-      <p>Footer</p>
-    </div>
   </React.StrictMode>
 );
 

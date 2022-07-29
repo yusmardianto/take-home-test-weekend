@@ -12,17 +12,11 @@ function Definition() {
   return (
     <div className="definition">
       <img src={BgImagePerson} className="BgimgPersonRight" />
-      <img src={ImagePerson} className="imgPersonRight" />
-      <Container>
-        <Row>
-          <Col />
-          <Col xs={5}>
-            <p className="definitionText">Deffinition; a practice or exercise to test or improve one's fitness for athletic competition, ability, or performance to exhaust (something, such as a mine) by working to devise, arrange, or achieve by resolving difficulties. Merriam-Webster.com Dictionary.</p><br />
-            <p className="definitionTextSign">-weekend team</p>
-          </Col>
-          <Col />
-        </Row>
-      </Container>
+      <img src={ImagePerson} className="imgPersonRight" /><br/><br/><br/>
+      <div align="center">
+      <p className="definitionText">Deffinition; a practice or exercise to test or improve one's fitness for athletic competition, ability, or performance to exhaust (something, such as a mine) by working to devise, arrange, or achieve by resolving difficulties. Merriam-Webster.com Dictionary.</p><br />
+      <p className="definitionTextSign">-weekend team</p><br/><br/>
+      </div>
     </div>
   );
 }

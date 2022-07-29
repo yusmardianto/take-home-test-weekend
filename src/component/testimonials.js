@@ -35,7 +35,7 @@ export default class Testimonial extends React.Component {
                 <div align="center">
                     <h1 className="titleTestimoni">Testimonial</h1>
                 </div>
-                <Container style={{width:"930px"}}>
+                <Container className="sliderTesti">
                     <Slider {...settings}>
                         { this.state.testimonis.map(testimoni =>
                             <div>

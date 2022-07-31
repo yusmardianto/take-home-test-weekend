@@ -10,11 +10,9 @@ function Resource() {
       <Container>
         <Row>
           <Col />
-          <Col xs={5}>
-            <div align="center">
-                <h1 className="povTitle">Resource</h1><br/>
-                <p className='povDesc'>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best</p>
-            </div>
+          <Col xs={12}>
+            <h1 className="povTitle">Resource</h1><br />
+            <p className='povDesc'>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best</p>
           </Col>
           <Col />
         </Row>

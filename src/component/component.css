@@ -114,15 +114,18 @@
 		margin-top: -150px;
 		background-color: black;
 		height: 100%;
+		text-align: center;
 	}
 
 	.povTitle {
+		text-align: center;
 		color: white;
 		margin-top: 250px;
 		font-weight: bolder;
 	}
 
 	.povDesc {
+		text-align: center;
 		font-size: 18px;
 		color: white;
 	}
@@ -158,25 +161,29 @@
 
 	/* set */
 	.setTitle {
+		text-align: center;
 		color: white;
 		margin-top: 150px;
 		font-weight: bolder;
 	}
 
 	.setDesc {
+		text-align: center;
 		font-size: 18px;
 		color: white;
+		margin-bottom: 160px;
 	}
 
 	.BgimgPersonleft {
 		position: absolute;
-		margin-top: 90px;
+		margin-top: 116px;
 		left: 0%;
 		width: 19%
 	}
 
 	.imgPersonleft {
 		position: absolute;
+		margin-top: 50px;
 		left: 0%;
 		width: 10%
 	}
@@ -193,7 +200,7 @@
 
 	.footer-content1 {
 		margin-top: -25px;
-		margin-left: 400px;
+		margin-left: 100px;
 		font-size: 16px;
 		font-weight: 500;
 		text-transform: capitalize;
@@ -205,7 +212,7 @@
 
 	.footer-content2 {
 		margin-top: -65px;
-		margin-left: 1150px;
+		margin-left: 900px;
 		font-size: 16px;
 		font-weight: 500;
 		text-transform: capitalize;
@@ -359,14 +366,13 @@
 	}
 
 	.helpImg {
-		width: 33%;
+		width: 100%;
 		padding: 10px;
 		background-color: black;
 	}
 
 	.helpText {
 		margin-top: 130px;
-		margin-left: 20px;
 		font-weight: bolder;
 	}
 
@@ -378,42 +384,38 @@
 
 	/* set */
 	.setTitle {
+		text-align: left;
 		color: white;
-		margin-top: 150px;
 		font-weight: bolder;
 	}
 
 	.setDesc {
 		font-size: 18px;
 		color: white;
+		margin-bottom: 200px;
 	}
 
 	.BgimgPersonleft {
 		position: absolute;
-		margin-top: 90px;
-		left: 0%;
-		width: 19%
+		margin-top: 187px;
+		width: 30%
 	}
 
 	.imgPersonleft {
 		position: absolute;
+		margin-top: 150px;
 		left: 0%;
-		width: 10%
+		width: 15%
 	}
 
 	footer {
-		left: 0;
-		right: 0;
 		background: #0B24FB;
-		height: 80px;
-		width: 100%;
 		padding-top: 40px;
 		color: #fff;
 	}
 
 	.footer-content1 {
 		margin-top: -25px;
-		margin-left: 400px;
 		font-size: 16px;
 		font-weight: 500;
 		text-transform: capitalize;
@@ -424,8 +426,7 @@
 	}
 
 	.footer-content2 {
-		margin-top: -65px;
-		margin-left: 1150px;
+		margin-top: -25px;
 		font-size: 16px;
 		font-weight: 500;
 		text-transform: capitalize;

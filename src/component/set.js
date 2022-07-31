@@ -9,23 +9,27 @@ import BgImagePerson from '../img/Path5.png';
 function Definition() {
     return (
         <div className="help"><br /><br />
-            <img src={BgImagePerson} className="BgimgPersonleft img-responsive" />
-            <img src={ImagePerson} className="imgPersonleft img-responsive" />
+            <img src={BgImagePerson} className="BgimgPersonleft" />
+            <img src={ImagePerson} className="imgPersonleft" />
             <Container>
                 <Row>
-                    <Col />
-                    <Col xs={5}>
-                        <div align="center">
-                            <h1 className="setTitle">You’re all set.</h1><br />
-                            <p className='setDesc'>The wise man therefore always holds in these matters to this principle of selection.</p><br /><br /><br /><br /><br /><br />
-                        </div>
+                    <Col xs={12}>
+                    <h1 className="setTitle">You’re all set.</h1><br />
+                            <p className='setDesc'>The wise man therefore always holds in these matters to this principle of selection.</p>
                     </Col>
-                    <Col />
                 </Row>
             </Container>
             <footer>
-                <p className="footer-content1">wknd@2020</p >
-                <p className="footer-content2">alpha version 0.1</p >
+                <Container>
+                    <Row>
+                        <Col>
+                            <p className="footer-content1">wknd@2020</p >
+                        </Col>
+                        <Col>
+                            <p className="footer-content2">alpha version 0.1</p >
+                        </Col>
+                    </Row>
+                </Container>
             </footer>
         </div>
     );

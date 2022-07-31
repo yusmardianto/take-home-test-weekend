@@ -10,11 +10,9 @@ function POV() {
       <Container>
         <Row>
           <Col />
-          <Col xs={5}>
-            <div align="center">
-                <h1 className="povTitle">POV</h1><br/>
-                <p className='povDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-            </div>
+          <Col xs={12}>
+            <h1 className="povTitle">POV</h1><br />
+            <p className='povDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
           </Col>
           <Col />
         </Row>

@@ -1,4 +1,6 @@
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import React, { Component } from "react";
 import Slider from "react-slick";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,6 +28,29 @@ export default class Testimonial extends React.Component {
             speed: 500,
             slidesToShow: 3,
             slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         };
         return (
             <div className="definition">
@@ -35,26 +60,30 @@ export default class Testimonial extends React.Component {
                 <div align="center">
                     <h1 className="titleTestimoni">Testimonial</h1>
                 </div>
-                <Container className="sliderTesti">
-                    <Slider {...settings}>
-                        { this.state.testimonis.map(testimoni =>
-                            <div>
-                                <Card
-                                    style={{ width: '18rem', height:"200px"}}
-                                    className="mb-2"
-                                    >
-                                    <Card.Body>
-                                        <Card.Title>
-                                            <h1 style={{fontWeight:"bold"}}>{testimoni.by}</h1>
-                                        </Card.Title><br/>
-                                        <Card.Text>
-                                            {testimoni.testimony}
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                        )}
-                    </Slider>
+                <Container className="sliderTesti" fluid>
+                    <Row>
+                        <Col>
+                            <Slider {...settings}>
+                                {this.state.testimonis.map(testimoni =>
+                                    <div>
+                                        <Card
+                                            style={{ width: '18rem', height: "200px" }}
+                                            className="mb-2"
+                                        >
+                                            <Card.Body>
+                                                <Card.Title>
+                                                    <h1 style={{ fontWeight: "bold" }}>{testimoni.by}</h1>
+                                                </Card.Title><br />
+                                                <Card.Text>
+                                                    {testimoni.testimony}
+                                                </Card.Text>
+                                            </Card.Body>
+                                        </Card>
+                                    </div>
+                                )}
+                            </Slider>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
         );
